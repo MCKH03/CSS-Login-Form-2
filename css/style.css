@@ -219,3 +219,11 @@ body {
   font-size: 1.6rem;
   font-weight: 700;
 }
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 34.375em) {
+  html {
+    font-size: 56%;
+  }
+}
