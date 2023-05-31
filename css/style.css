@@ -21,7 +21,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
 }
 
 .container {
@@ -115,8 +114,7 @@ body {
   font-size: 1.4rem;
   transform: translateY(1.5rem);
   letter-spacing: 1.3px;
-    opacity: 0.2;
-
+  opacity: 0.2;
 
   transition: all 0.3s;
 }
@@ -126,8 +124,7 @@ body {
   font-size: 1.2rem;
   left: 0;
   color: #02c2f2;
-    opacity: 0.8;
-
+  opacity: 0.8;
 }
 
 .input:valid + .label {
