@@ -20,6 +20,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .container {
@@ -113,6 +115,8 @@ body {
   font-size: 1.4rem;
   transform: translateY(1.5rem);
   letter-spacing: 1.3px;
+    opacity: 0.2;
+
 
   transition: all 0.3s;
 }
@@ -122,6 +126,8 @@ body {
   font-size: 1.2rem;
   left: 0;
   color: #02c2f2;
+    opacity: 0.8;
+
 }
 
 .input:valid + .label {
@@ -217,6 +223,15 @@ body {
   padding: 1.5rem 3rem;
 
   font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.dev:link,
+.dev:visited {
+  text-decoration: none;
+  color: white;
+  opacity: 0.7;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
